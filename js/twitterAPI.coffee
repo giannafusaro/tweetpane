@@ -1,7 +1,6 @@
 twitter = require('twitter')
-Tweet = require('./Tweet.js')
 jsdom = require('jsdom')
-
+Tweet = require('../js/Tweet.js')
 
 class MyTwitter
   constructor: ->
@@ -10,17 +9,16 @@ class MyTwitter
     access_token = process.env['TWITTER_ACCESS_TOKEN']
     access_token_secret = process.env['TWITTER_ACCESS_SECRET']
     timeline = []
-    @client = new twitter(
+    @client = new twitter
       consumer_key: consumer_key
       consumer_secret: consumer_secret
       access_token_key: access_token
       access_token_secret: access_token_secret
-    )
 
-  getTimeline: () ->
-    params = {include_entities: true, contributor_details: true}
-    @client.get('statuses/home_timeline', params, (error, tweets, response) ->
-      if (!error)
+  getTimeline: ->
+    params = { include_entities: true, contributor_details: true }
+    @client.get 'statuses/home_timeline', params, (error, tweets, response) ->
+      if !error
         console.log(tweets, 'tweets')
         for tweet in tweets
           li = document.createElement('li')
@@ -36,26 +34,17 @@ class MyTwitter
             thumbnail: tweet.user.profile_image_url_https
             screen_name: tweet.user.screen_name
           ).injectHTML()
-
           li.innerHTML = compact
-
-          $('ul.tweet-list').append(li)
+          $('ul.tweet-list').append li
       else
-        console.log("errors:", error)
-    )
-
+        console.log "errors:", error
 
   startStream: ->
-    @client.stream('user', { with: 'followings', delimited: 'true', language: 'en' }, (stream) ->
-      stream.on('data', (tweet) ->
+    @client.stream 'user', with: 'followings', delimited: 'true', language: 'en', (stream) ->
+      stream.on 'data', (tweet) ->
         console.log(tweet.text)
-      )
 
-      stream.on('error', (error) ->
+      stream.on 'error', (error) ->
         throw error
-      )
-    )
-
-
 
 module.exports = MyTwitter

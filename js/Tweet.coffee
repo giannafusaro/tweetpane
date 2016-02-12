@@ -15,4 +15,5 @@ class Tweet
   compactString: (obj_with_html) ->
     @compact_details = ""
     @compact_details += value for key, value of obj_with_html
+
 module.exports = Tweet

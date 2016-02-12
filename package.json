@@ -1,29 +1,28 @@
 {
-  "name": "electron-quick-start",
-  "version": "1.0.0",
-  "description": "A minimal Electron application",
-  "main": "main.js",
+  "name": "TweetPane",
+  "version": "0.0.1",
+  "description": "A simple sidebar-style twitter feed",
+  "main": "js/main.js",
   "scripts": {
-    "start": "electron main.js"
+    "start": "electron js/main.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/atom/electron-quick-start.git"
+    "url": "git+https://github.com/giannafusaro/tweetpane.git"
   },
   "keywords": [
-    "Electron",
-    "quick",
-    "start",
-    "tutorial"
+    "Twitter",
+    "sidebar",
+    "pane",
+    "panel"
   ],
-  "author": "GitHub",
+  "author": "OverWine.io",
   "license": "CC0-1.0",
   "bugs": {
-    "url": "https://github.com/atom/electron-quick-start/issues"
+    "url": "https://github.com/giannafusaro/tweetpane/issues"
   },
-  "homepage": "https://github.com/atom/electron-quick-start#readme",
+  "homepage": "https://github.com/giannafusaro/tweetpane#readme",
   "devDependencies": {
-    "electron-prebuilt": "^0.35.0",
-    "grunt": "^0.4.5"
+    "electron-prebuilt": "^0.35.0"
   }
 }
