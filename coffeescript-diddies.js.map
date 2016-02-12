@@ -1,0 +1,10 @@
+{
+  "version": 3,
+  "file": "coffeescript-diddies.js",
+  "sourceRoot": "../../../..",
+  "sources": [
+    "Users/giannafusaro/Development/electron-quick-start/coffeescript-diddies.coffee"
+  ],
+  "names": [],
+  "mappings": ";AAEA;AAAA,MAAA;;EAAA,IAAG,oDAAH;IACE,OAAO,CAAC,GAAR,CAAY,iEAAZ,EADF;;;EAIA,aAAA,GAAgB,SAAA;iCACd,IAAC,CAAA,SAAD,IAAC,CAAA,SAAU,EAAE,CAAC,eAAH,CAAmB,IAAI,CAAC,OAAxB;EADG;AAJhB"
+}

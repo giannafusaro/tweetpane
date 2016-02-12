@@ -1,0 +1,10 @@
+{
+  "version": 3,
+  "file": "startTweets.js",
+  "sourceRoot": "../../../..",
+  "sources": [
+    "Users/giannafusaro/Development/electron-quick-start/startTweets.coffee"
+  ],
+  "names": [],
+  "mappings": ";AAAA;AAAA,MAAA;;EAAA,SAAA,GAAY,OAAA,CAAQ,cAAR;;EAEZ,SAAA,GAAgB,IAAA,SAAA,CAAA;;EAChB,OAAO,CAAC,GAAR,CAAY,SAAS,CAAC,WAAV,CAAA,CAAZ;;EACA,SAAS,CAAC,WAAV,CAAA;AAJA"
+}
