@@ -1,0 +1,10 @@
+{
+  "version": 3,
+  "file": "startTweets.js",
+  "sourceRoot": "../../../../../../../..",
+  "sources": [
+    "Users/giannafusaro/Dev/tweetpane/photon/dist/template-app/js/startTweets.coffee"
+  ],
+  "names": [],
+  "mappings": ";AAAA;AAAA,MAAA;;EAAA,OAAO,CAAC,GAAR,CAAY,MAAZ;;EACA,SAAA,GAAY,OAAA,CAAQ,0EAAR;;EACZ,SAAA,GAAgB,IAAA,SAAA,CAAA;;EAChB,OAAO,CAAC,GAAR,CAAY,0BAAZ,EAAwC,SAAS,CAAC,WAAV,CAAA,CAAxC;;EACA,SAAS,CAAC,WAAV,CAAA;AAJA"
+}

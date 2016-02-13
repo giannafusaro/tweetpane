@@ -1,0 +1,10 @@
+{
+  "version": 3,
+  "file": "tweet.js",
+  "sourceRoot": "../../../../../../../..",
+  "sources": [
+    "Users/giannafusaro/Dev/tweetpane/photon/dist/template-app/js/tweet.coffee"
+  ],
+  "names": [],
+  "mappings": ";AAAA;AAAA,MAAA;;EAAM;IACS,eAAC,OAAD;MAAC,IAAC,CAAA,UAAD;IAAD;;oBAEb,UAAA,GAAY,SAAA;aACV,yDAAA,GACwD,IAAC,CAAA,OAAO,CAAC,SADjE,GAC2E,mEAD3E,GAGS,IAAC,CAAA,OAAO,CAAC,IAHlB,GAGuB;IAJb;;;;;;EAuBd,MAAM,CAAC,OAAP,GAAiB;AA1BjB"
+}
